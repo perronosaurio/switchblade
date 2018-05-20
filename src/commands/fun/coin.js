@@ -8,7 +8,7 @@ module.exports = class Reverse extends Command {
   }
 
   run (message, args) {
-    let face = Math.floor(Math.random())
+    let face = Math.random(Math.random())
     if (face === 0) {
       message.channel.send(
         new SwitchbladeEmbed()
